@@ -1,5 +1,5 @@
 GENERATED_FILES = TCCNS_crosstab.csv
-PROCESSORS = "$(PWD)/../processors/"
+PROCESSORS = "../processors/"
 MAKEFLAGS += --warn-undefined-variables
 SHELL := bash
 .SHELLFLAGS := -eu -o pipefail
